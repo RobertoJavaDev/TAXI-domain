@@ -1,2 +1,6 @@
-package pl.robertojavadev.taxidomain.driver;public enum Status {
+package pl.robertojavadev.taxidomain.driver;
+
+enum Status {
+    AVAILABLE,
+    UNAVAILABLE
 }

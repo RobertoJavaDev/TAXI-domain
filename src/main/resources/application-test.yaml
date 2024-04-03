@@ -11,6 +11,10 @@ spring:
   datasource:
     url: jdbc:h2:file:./taxitest
 
+  liquibase:
+    change-log: db/changelog-test.yaml
+    contexts: test
+
   h2:
     console:
       enabled: true
